@@ -6,7 +6,7 @@
 
 * Sin Numbers are not managed my this app. So, this API is an RPC API no need to create a Representation Class of a resource:sin
 However, we need classes for API responses. Class=>JSON conversion will be done by Spring. (Jackson, if accept header is json)
-
+/
 class ValidationRPCResponse{
 		private int validationResult;
 		public ValidationRPCResponse(int validationResult) {
